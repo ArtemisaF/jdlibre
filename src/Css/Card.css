@@ -1,0 +1,14 @@
+.card-img-top{
+    transform:scale(0.6);
+    transition:transform 0.5s ease;
+
+}
+.card-img-top:hover{
+    transform:scale(0.9);
+
+}
+
+.btn btn-primary btn-sm btn-block{
+    background: #0085ff;
+}
+
