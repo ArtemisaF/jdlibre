@@ -9,11 +9,11 @@ class App extends Component {
 
         <BrowserRouter>
             <Switch>
-                <Route exact path="host=jd-libre.herokuapp.com"
+                <Route exact path="\"
                        component={home}/>
                 <Route
                     exact
-                    path="host=jd-libre.herokuapp.com"
+                    path="\"
                     render={() => <home/>} />
                 <Route
                     exact
