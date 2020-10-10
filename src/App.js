@@ -9,11 +9,11 @@ class App extends Component {
 
         <BrowserRouter>
             <Switch>
-                <Route exact path="\"
+                <Route exact path="/"
                        component={home}/>
                 <Route
                     exact
-                    path="\"
+                    path="/"
                     render={() => <home/>} />
                 <Route
                     exact
